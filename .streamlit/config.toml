@@ -1,12 +1,13 @@
-[theme]
-primaryColor="#1e1e1e"
-backgroundColor="#0e1117"
-secondaryBackgroundColor="#262730"
-textColor="#FAFAFA"
-font="sans serif"
-favicon = "assets/favicon.ico"
+# .streamlit/config.toml
 
 [server]
-headless = true
+enableCORS = true
+enableXsrfProtection = true
 port = 8501
-enableCORS = false
+
+[theme]
+primaryColor = "#F63366"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
