@@ -1,12 +1,14 @@
-[server]
-enableCORS = true
-enableXsrfProtection = true
-port = 8501
+# .streamlit/secrets.toml
 
-[theme]
-primaryColor = "#F63366"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
-font = "sans serif"
-# theme.favicon = "path/to/favicon.ico"  # コメントアウトまたは削除
+[general]
+email = "user@example.com"
+
+[database]
+host = "localhost"
+port = 5432
+user = "admin"
+password = "secret"
+
+[api_keys]
+service_a = "key123"
+service_b = "key456"
