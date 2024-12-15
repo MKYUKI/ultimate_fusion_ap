@@ -1,0 +1,55 @@
+# Streamlit Configuration File
+# 詳細な設定は https://docs.streamlit.io/library/advanced-features/configuration を参照してください。
+
+[theme]
+# テーマのカスタマイズ
+base="dark"  # "light" または "dark"
+primaryColor="#1f77b4"
+backgroundColor="#2c2c2c"
+secondaryBackgroundColor="#3e3e3e"
+textColor="#FFFFFF"
+font="sans serif"
+
+[server]
+# サーバー設定
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+maxUploadSize = 200  # MB単位
+
+[client]
+# クライアント設定
+caching = {
+  "headless" = true
+}
+
+[logger]
+# ログ設定
+level = "info"
+
+[browser]
+# ブラウザ設定
+gatherUsageStats = false
+
+[run]
+# アプリケーションの実行設定
+maxCachedMessageSize = 2000
+
+
+[theme]
+favicon = "assets/favicon.ico"
+
+[theme]
+primaryColor="#1e1e1e"
+backgroundColor="#0e1117"
+secondaryBackgroundColor="#262730"
+textColor="#FAFAFA"
+font="sans serif"
+favicon = "assets/favicon.ico"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+

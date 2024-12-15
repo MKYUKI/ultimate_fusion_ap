@@ -1,0 +1,62 @@
+/* custom.css */
+
+/* ボタンのスタイル */
+.stButton > button {
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.stButton > button:hover {
+    background-color: #333333;
+}
+
+/* テキストのスタイル */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FAFAFA;
+}
+
+/* サイドバーのスタイル */
+.css-1d391kg {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* データフレームのスタイル */
+.css-1cpxqw2 {
+    background-color: #262730;
+    color: #FAFAFA;
+}
+
+/* フッターのスタイル */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.profile-links img {
+    width: 35px;
+    height: 35px;
+}

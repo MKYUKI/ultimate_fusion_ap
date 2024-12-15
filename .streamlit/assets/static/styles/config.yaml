@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    user1:
+      name: "User One"
+      password: "$2b$12$eImiTXuWVxfM37uY4JANjQ=="
+    user2:
+      name: "User Two"
+      password: "$2b$12$KIXQ3aFZRn4T8hR7Xu2G9e"
+
+cookie:
+  expiry_days: 30
+  key: "YOUR_SECURE_COOKIE_KEY"
+  name: "exifa_auth"
+
+preauthorized:
+  emails:
+    - "admin@example.com"

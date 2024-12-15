@@ -1,0 +1,12 @@
+[theme]
+primaryColor="#1e1e1e"
+backgroundColor="#0e1117"
+secondaryBackgroundColor="#262730"
+textColor="#FAFAFA"
+font="sans serif"
+favicon = "assets/favicon.ico"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
