@@ -30,3 +30,8 @@ Thumbs.db
 
 # Logs
 *.log
+echo ".streamlit/secrets.toml" >> .gitignore
+git rm --cached .streamlit/secrets.toml
+git add .gitignore
+git commit -m "Ignore secrets.toml to protect sensitive information"
+git push origin main
